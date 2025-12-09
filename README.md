@@ -15,19 +15,33 @@ O notebook principal nesta fase é o `Analise_sentimento_EDA_1.ipynb`. Ele detal
 **Principais etapas abordadas na análise inicial (EDA Parte 1):**
 
 **1 - Metadados como:**
+
   1.1. Dimensão do dataset após limpeza;
+  
   1.2. Tipo de quantidade de atributos;
+  
   1.3. Tema geral sobre as mensagens colhidas (indício)
+
 **2 - Classes (target- sentimentoss) presentes no dataset;**
+
 **3 - Análise estatística e gráfica, por sentimento, de elementos descritivos como:**
+
   3.1. Frequência de caracteres;
+  
   3.2. Frequência de palavras;
+  
   3.3. Frequência de sentenças;
+  
   3.4. Média de palavras;
+  
   3.5. Média de caracteres
+
 **4 - Lingua predominante.**
+
 **5 - Também pudemos averiguar a necessidade de alguns procedimentos prévios como:**
+
   5.1. Limpeza do texto
+  
   5.2. Lematização
 
 5.3. Identificação e eliminação de outliers
