@@ -81,19 +81,20 @@ git clone [https://github.com/Fagner608/classificacao_sentimento.git](https://gi
 cd classificacao_sentimento
 ```
 
-### Crie e ative um ambiente virtual (ex: com conda)
+### 2. Crie e ative um ambiente virtual (ex: com conda)
 ```bash
 conda create -n sentiment_env python=3.9
 conda activate sentiment_env
 ```
 
-### Instale as dependências (assumindo que há um requirements.txt)
+### 3. Instale as dependências (assumindo que há um requirements.txt)
 ```bash
 pip install -r requirements.txt
 ```
+Se não houver, você pode instalar as bibliotecas principais manualmente:
+**pip install pandas numpy matplotlib seaborn nltk scikit-learn jupyter**
 
-### Se não houver, você pode instalar as bibliotecas principais manualmente:
-### pip install pandas numpy matplotlib seaborn nltk scikit-learn jupyter
+### 4. Execute
 ```bash
 jupyter notebook
 ```
