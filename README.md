@@ -47,12 +47,13 @@ O projeto foi desenvolvido em Python e utiliza bibliotecas padrão do ecossistem
 
 A estrutura de pastas segue uma convenção comum para projetos de ciência de dados:
 lassificacao_sentimento/ 
+```bash
 ├── data/ 
 ├── src/ 
 │ ├── Analise_sentimento_EDA_1.ipynb # Notebook de Análise Exploratória de Dados 
 ├── outputs / # datasets 
 └── README.md
-
+```
 ---
 
 ## 🚀 Como Executar o Projeto
