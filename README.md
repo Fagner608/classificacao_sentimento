@@ -45,6 +45,20 @@ O notebook principal nesta fase é o `Analise_sentimento_EDA_1.ipynb`. Ele detal
   5.2. Lematização
 
 5.3. Identificação e eliminação de outliers
+
+**Principais etapas abordadas na análise inicial (EDA Parte 2 - EM ANDAMENTO):**
+
+**6 - Marcação POS:**
+
+  1.1. Escolha do método e da dependência;
+  
+  1.2. Aplicação ao courpus; - em andamento
+
+  1.3. Matrix POS; - em andamento
+  
+**7 - N-gramas:** - em andamento
+
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas no EDA Parte 1
