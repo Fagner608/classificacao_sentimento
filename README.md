@@ -8,7 +8,7 @@ O projeto é dividido em etapas que cobrem desde a Análise Exploratória de Dad
 
 ---
 
-## 📊 Análise Exploratória de Dados (EDA)
+## 📊 Análise Exploratória de Dados (EDA 1 - Inicial)
 
 O notebook principal nesta fase é o `Analise_sentimento_EDA_1.ipynb`. Ele detalha a análise inicial do conjunto de dados e as descobertas cruciais para as próximas etapas de pré-processamento e modelagem.
 
@@ -112,6 +112,43 @@ Se não houver, você pode instalar as bibliotecas principais manualmente:
 ```bash
 jupyter notebook
 ```
+## 📊 Análise Exploratória de Dados (EDA 2 - Intermediário)
+
+Neste ponto, antes de elencar os pontos chaves desta etapa de EDA, é interessante notar que a marcação de classes gramaticais e a análise de ngrams demonstra que, possivelmente, ao treinarmos os modelos, os modelos que tem a capacidade de capturar contexto terão melhor desempenho do que os que não tem.
+
+Isto porque, o dataset é pobre de features, denotando natureza diversa da indicada para a classificação de sentimentos. Conforme já informado, em modelos mais simples, teremos dificuldade de aprendizado, e, nos mais complexos, dificuldade na generalização.
+
+Abaixo, os principais itens de contribuição da EDA Part. 2 (nível intermediário).
+
+1 - **POS**:
+
+  1.1. Escolha do módulo (NLTK ou space);
+  
+  1.2. Escolha do método (tule-based ou statistyycal);
+  
+  1.3. Aplicação ao *corpus*
+
+  1.4. Análise univariada de das tags POS;
+
+  1.5. Análise da matriz de bigramas, das tags POS;
+
+2 - **Ngramas** (dos tokens);
+
+  2.1. Análise de bigramas dos tokens;
+
+  2.2. Anállise de  trigramdas dos tokens.
+
+A EDA inicial, portanto, foi bastante produtiva.
+
+3 - **Também pudemos concluir**:
+
+  5.1. Confirmando os indícios da etada de EDA anterior, o texto se mostra pouco propenso à análise de sentimentos por métodos tradicionais;
+  
+  5.2. O baixo relacionamento das tags com as tags ADJ e ADV
+  
+  5.3. A possível necessidade de captura do contexto, com modelos mais complexos, devido à característica pouco opnativa dos textos.
 
 
-## 🚀 Em andamento o EDA Parte 2 (nível intermediário)
+A EDA intermediária, portanto, foi produtiva e complementar da primeira etapa.
+
+## 🚀 Em andamento o EDA Parte 3 (nível avançado)
